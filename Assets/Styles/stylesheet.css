@@ -64,7 +64,7 @@ footer img {
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
 	color: #fff;
-	background-image: url("../images/vr-person.png");
+	background-image: url("../images/11.jpg");
 	background-attachment: fixed;
 }
 
@@ -155,4 +155,23 @@ footer img {
 .menu a:active {
  	color: #fff;
 
+}
+
+.flex_group_1, .flex_group_2, .flex_group_3_inner_bottom, .flex_container {
+  display: flex;
+}
+
+.flex_container {
+  flex-direction: row;
+}
+
+.flex_group_1, .flex_group_2, .flex_group_3 {
+  flex-direction: column;
+}
+
+.flex_container * {
+  border: 1px solid;
+}
+img {
+  max-width: 100%;
 }
