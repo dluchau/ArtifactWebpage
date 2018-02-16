@@ -117,16 +117,11 @@ footer img {
 	flex-direction: row;
 }
 
-.mail {
-	background-color: yellow;
-}
-
 .text {
 	display: flex;
 	flex-direction: column;
 	width: 400px;
 	margin-left: 50px;
-	background-color: red;
 }
 
 .maintwo img {
@@ -179,7 +174,6 @@ footer img {
 .gallery {
 	display: flex;
 	flex-direction: column;
-	background-color: red;
 }
 
 
@@ -202,4 +196,41 @@ OR ELSE YOU WILL TARGET EVERY IMG*/
 
 #writeus {
 	text-align: center;
+}
+
+/*Contact form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+		font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #e32028;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #fff;
+		color: #2e3440;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #2e3440;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    height: 425px;
+    width: 400px;
+		color: #fff;
 }
