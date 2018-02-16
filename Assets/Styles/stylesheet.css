@@ -157,6 +157,12 @@ footer img {
 
 }
 
+.mail {
+	display: flex;
+	flex-direction: row;
+	margin-left: 600px;
+}
+
 .flex_group_1, .flex_group_2, .flex_group_3_inner_bottom, .flex_container {
   display: flex;
 }
