@@ -159,6 +159,7 @@ footer img {
 
 .flex_group_1, .flex_group_2, .flex_group_3_inner_bottom, .flex_container {
   display: flex;
+	margin-top: 100px;
 }
 
 .flex_container {
@@ -174,4 +175,9 @@ footer img {
 }
 img {
   max-width: 100%;
+}
+
+.worktagline {
+	align-items: center;
+	justify-content: center;
 }
