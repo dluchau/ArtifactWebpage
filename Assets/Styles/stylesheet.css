@@ -86,8 +86,8 @@ footer img {
 	margin-top: 2px;
 }
 
-.icons {
-
+.icons a {
+	text-decoration: none;
 }
 
 /* All of the mains*/
