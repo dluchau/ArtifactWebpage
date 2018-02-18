@@ -189,26 +189,25 @@ footer img {
 	flex-direction: column;
 }
 
-
-/*BEFORE USING THIS, REMEMBER TO
-SPECIFY WHAT IMAGE YOU WANT TO TARGET,
-OR ELSE YOU WILL TARGET EVERY IMG*/
-/*img {
-  max-width: 100%;
-}*/
-
-#work1 {
-
-}
-#work2 {
-
-}
-#work3 {
-
+div.gallery {
+    margin: 5px;
+    border: 4px solid #2e3440;
+    float: left;
+    width: 240px;
 }
 
-#writeus {
-	text-align: center;
+div.gallery:hover {
+    border: 4px solid #e32028;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 /*Contact form*/
