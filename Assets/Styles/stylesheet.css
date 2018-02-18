@@ -249,3 +249,15 @@ input[type=submit]:hover {
     width: 400px;
 		color: #fff;
 }
+
+.mainproject1 {
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	background-size: cover;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	background-image: url("../images/blacksmith.jpg");
+	background-attachment: fixed;
+}
