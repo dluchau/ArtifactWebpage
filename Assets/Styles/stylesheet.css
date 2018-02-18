@@ -258,3 +258,16 @@ input[type=submit]:hover {
     width: 400px;
 		color: #fff;
 }
+
+.mainproject1 {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-size: cover;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	color: #2e3440;
+	flex-direction: column;
+}
