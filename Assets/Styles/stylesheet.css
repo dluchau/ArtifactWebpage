@@ -192,6 +192,7 @@ footer img {
 div.gallery {
     margin: 5px;
     border: 4px solid #2e3440;
+		border-radius: 4%;
     float: left;
     width: 240px;
 }
