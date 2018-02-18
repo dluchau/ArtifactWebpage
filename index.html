@@ -1,7 +1,7 @@
 <!DOCTYPE	html>
 <html>
 <head>
-<title>Artifact Game Solutions</title>
+<title>Artifact</title>
 <meta charset="UTF-8">
 <link rel="shortcut icon" href="assets/images/logo.png"/>
 <link rel="stylesheet" type="text/css" href="assets/styles/stylesheet.css">
@@ -9,27 +9,30 @@
 <body>
 <div class="mainone">
 	<header>
-		<img src="assets/images/logo.png">
+		<img src="assets/images/logo.png" alt="company logo">
 	<nav>
 		<ul class="menu">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="#whatwedo">What we do</a></li>
 			<li><a href="#whoweare">Who we are</a></li>
 			<li><a href="#ourwork">Our work</a></li>
-			<li><a href="blog.html">Blog</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
+	<form>
+	  <input type="text" name="search" placeholder="Search..">
+	</form>
+
 </header>
 	<div class="content">
-		<img src="assets/images/logo.png" alt="logo">
+		<img src="assets/images/logo.png" alt="company logo">
 		<h1>ARTIFACT</h1>
 		<h3>Leading the Virtual Reality revolution in education.</h3>
 	</div>
 </div>
 <a name="whatwedo"></a>
 <div class="maintwo">
-		<img src="assets/images/vr-univers.png">
+		<img src="assets/images/vr-univers.png" alt="using vr illustration">
 		<div class="text">
 		<h2>What we do</h2>
 		<p>Virtual reality changes the way we think about learning and education by transforming information into interactive and immersive VR games. The augmentation of information into VR offers a completely new way to learn. Virtual Reality allows you to enter another world, walk around and interact with it using just your hands. We strive to lead the Virtual Reality revolution by creating the highest quality content for your organization or school.</p>
@@ -37,14 +40,37 @@
 </div>
 <a name="ourwork"></a>
 <div class="mainthree">
+	<div class"gallery container">
 	<div class="gallery">
-		<h2>Our work</h2><br>
-		<img src="assets/images/11.jpg" alt="work1" id="work1"
-		<img src="assets/images/07.jpg" alt="work2" id="work2"
-		<img src="assets/images/02.jpg" alt="work3" id="work3"
-  </div>
+  <a target="_blank" href="project1.html">
+    <img src="assets/images/blacksmith.jpg" alt="Thumbnail of project 1" width="300" height="200">
+  </a>
+  <div class="desc">Blacksmith</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="project2.html">
+    <img src="assets/images/nyborgcastle.jpg" alt="Thumbnail of project 2" width="600" height="400">
+  </a>
+  <div class="desc">Nyborg Castle</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="project3.html">
+    <img src="assets/images/zentropa.jpg" alt="Thumbnail of project 3" width="600" height="400">
+  </a>
+  <div class="desc">Zentropa</div>
+</div>
+
+<div class="gallery">
+  <a target="project4.html" href="project4.html">
+    <img src="assets/images/zentropa.jpg" alt="Thumbnail of project 4" width="600" height="400">
+  </a>
+  <div class="desc">Project 4</div>
+</div>
 </div>
 	</div>
+</div>
 </div>
 <a name="whoweare"></a>
 <div class="maintwo">
@@ -52,7 +78,7 @@
 		<h2>Who we are</h2>
 		<p>We are a team of dedicated artists, programmers and designers who value a very close relationship with our clients in order to create VR Applications that suit your needs. It’s difficult to describe VR to someone who hasn’t tried it, so we offer potential clients a demo of different VR Apps at our headquarters in order to work more closely with you. Based directly south of Odense, in the middle of Denmark, our team has built a reputation for good quality & unique solutions.</p>
 	</div>
-	<img src="assets/images/goggles.png">
+	<img src="assets/images/goggles.png" alt="man wearing VR goggles">
 </div>
 <a name="contact"></a>
 <div class="mainfour">
@@ -61,21 +87,21 @@
   <div class="container">
   <form action="/action_page.php">
 
-    <label for="fname">Fornavn</label>
-    <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <label for="lname">Efternavn</label>
-    <input type="text" id="lname" name="lastname" placeholder="Dit efternavn..">
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Land</label>
+    <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="australia">Danmark</option>
-      <option value="canada">England</option>
-      <option value="usa">Tyskland</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
     </select>
 
-    <label for="subject">Besked</label>
-    <textarea id="subject" name="subject" placeholder="Din besked.." style="height:80px"></textarea>
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Your message.." style="height:80px"></textarea>
 
     <input type="submit" value="Send">
 
@@ -85,7 +111,30 @@
 	</div>
 </div>
 	<footer>
-		<img src="assets/images/logo.png" alt="Logo">
+		<div class="footer-left">
+			<ul class="footer-info">
+				<li>Address: Stationsvej 69, 5792 Årslev</li>
+				<li>Hours: Monday to friday 9AM–7PM</li>
+				<li>Phone: 60 60 29 16</li>
+			</ul>
+		</div>
+		<div>
+			<img src="assets/images/logo.png" alt="company logo">
+		</div>
+		<div class="icons">
+			<a target="_blank" href="https://www.facebook.com/artifactgamesolutions/">
+				<img src="assets/images/facebook.png" alt="Go to Facebook">
+			</a>
+			<a target="_blank" href="https://www.linkedin.com/company/artifactgamesolutions/">
+				<img src="assets/images/linkedin.png" alt="Go to Facebook">
+			</a>
+			<a target="_blank" href="https://www.instagram.com/artifactgamesolutions/">
+				<img src="assets/images/instagram.png" alt="Go to Facebook">
+			</a>
+			<a target="_blank" href="https://www.youtube.com/channel/UC4qiVzQclR59_wC_Cp-Ez3w/">
+				<img src="assets/images/youtube.png" alt="Go to Facebook">
+			</a>
+		</div>
 	</footer>
 </body>
 
