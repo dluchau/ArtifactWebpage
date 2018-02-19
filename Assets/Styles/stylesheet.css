@@ -149,7 +149,7 @@ footer img {
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	color: #2e3440;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .text {
