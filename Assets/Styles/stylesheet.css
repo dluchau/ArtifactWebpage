@@ -211,12 +211,18 @@ footer img {
 	flex-direction: column;
 }
 
+div.gallery-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 div.gallery {
     margin: 5px;
     border: 4px solid #2e3440;
 		border-radius: 4%;
-    float: left;
     width: 240px;
+
 }
 
 div.gallery:hover {
@@ -230,8 +236,10 @@ div.gallery img {
 
 div.desc {
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
+
+
 
 /*Contact form*/
 input[type=text], select, textarea {
