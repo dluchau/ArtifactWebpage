@@ -282,3 +282,17 @@ input[type=submit]:hover {
 	color: #2e3440;
 	flex-direction: column;
 }
+
+.tagline {
+	text-align: center;
+	padding-top: 100px;
+}
+.description {
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.projectimg {
+	width: 50%;
+}
