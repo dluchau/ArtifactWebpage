@@ -157,6 +157,20 @@ footer img {
 	flex-direction: column;
 }
 
+/*.mainfive {
+	display: flex;
+	min-height: 100%;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-size: cover;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	color: #2e3440;
+	flex-direction: column;
+}*/
+
+
 .text {
 	display: flex;
 	flex-direction: column;
@@ -289,6 +303,27 @@ input[type=submit]:hover {
 		color: #fff;
 }
 
+.mainfive {
+	display: flex;
+	min-height: 100vh;
+	width: 100%;
+	background-size: cover;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	background-color: #fff;
+}
+
+.projectdescription {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
+
 .mainproject1 {
 	display: flex;
 	min-height: 100vh;
@@ -298,14 +333,38 @@ input[type=submit]:hover {
 	background-size: cover;
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	color: #2e3440;
-	flex-direction: column;
+	background-image: url("../images/nyborgcastle.jpg");
+}
+
+.mainproject2 {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-size: cover;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/blacksmith.jpg");
+}
+
+.mainproject3 {
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-size: cover;
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("../images/zentropa.jpg");
 }
 
 .tagline {
 	text-align: left;
 	padding-top: 100px;
 }
+
 .description {
 	text-align: left;
 	padding-left: 200px;
