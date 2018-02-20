@@ -377,5 +377,6 @@ input[type=submit]:hover {
 }
 
 #errorpageman {
-image-resolution: 310, 465;
+height: 300px;
+width: 200px;
 }
