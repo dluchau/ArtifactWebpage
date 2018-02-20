@@ -18,10 +18,6 @@ header {
 	position: fixed;
 }
 
-.logoheader a:hover {
-
-}
-
 header li {
 	height: 15px;
 	display: flex;
@@ -39,6 +35,11 @@ header img {
 	height: 15px;
 	margin-right: 350px;
 	justify-content: flex-start;
+}
+
+header img:hover {
+	transform: scale(1.3);
+	transition: all .2s ease-in-out;
 }
 
 form {
