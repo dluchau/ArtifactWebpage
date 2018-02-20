@@ -18,10 +18,6 @@ header {
 	position: fixed;
 }
 
-.logoheader a:hover {
-
-}
-
 header li {
 	height: 15px;
 	display: flex;
@@ -210,6 +206,14 @@ footer img {
 
 }
 
+.logolink {
+	border: solid;
+	border-color: red;
+	height: 30px;
+	width: 30px;
+	border: 4px;
+}
+
 .gallery {
 	display: flex;
 	flex-direction: column;
@@ -218,7 +222,7 @@ footer img {
 div.gallery-container {
 	display: flex;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 div.gallery {
