@@ -37,6 +37,11 @@ header img {
 	justify-content: flex-start;
 }
 
+header img:hover {
+	transform: scale(1.3);
+	transition: all .2s ease-in-out;
+}
+
 form {
 	padding-top: 10px;
 	margin-right: 15px;
